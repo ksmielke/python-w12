@@ -30,3 +30,16 @@ def UpdateString(x, y, z):
             k += y
     return (k)
     #print(k)
+
+#4
+def FindWordCount(x, y):
+    a = LoadFile(x)
+    i = 0
+    m = []
+    for k in a:
+        m += k.split()
+    #print(m)
+    for p in m:
+        if p == y:
+            i += 1
+    return (i)
