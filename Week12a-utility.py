@@ -1,4 +1,5 @@
- #   incremental build model 
+ #   incremental build model
+ #https://github.com/ksmielke/python-w12
 #   kimberly mielke
  #  ​CSCI 102 – Section A 
 #   Week 12 - Part A 
