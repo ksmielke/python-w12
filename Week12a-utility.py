@@ -65,3 +65,12 @@ def Intersection(x, y):
                 k.append(n)
                 #print(k)
     return (k)
+
+#8
+def NotIn(x, y):
+    k = []
+    for n in x:
+        if n not in y:
+            k.append(n)
+            #print(k)
+    return (k)
