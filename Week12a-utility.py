@@ -49,3 +49,9 @@ def ScoreFinder(x, y):
     
     
     return PrintOutput
+
+#6
+def Union(x, y):
+    k = []
+    k = x + y
+    return PrintOutput(k)
