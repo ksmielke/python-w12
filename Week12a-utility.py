@@ -43,3 +43,9 @@ def FindWordCount(x, y):
         if p == y:
             i += 1
     return (i)
+
+#5
+def ScoreFinder(x, y):
+    
+    
+    return PrintOutput
