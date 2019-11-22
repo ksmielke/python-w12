@@ -55,3 +55,13 @@ def Union(x, y):
     k = []
     k = x + y
     return PrintOutput(k)
+
+#7
+def Intersection(x, y):
+    k = []
+    for n in x:
+        for m in y:
+            if n == m:
+                k.append(n)
+                #print(k)
+    return (k)
