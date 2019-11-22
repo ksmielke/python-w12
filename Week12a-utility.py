@@ -19,3 +19,14 @@ def LoadFile(x):
     for n in doc:
         lis.append(n.strip())
     return (lis)
+
+#3
+def UpdateString(x, y, z):
+    k = ''
+    for i in range(len(x)):
+        if i != z:
+            k += x[i]
+        else:
+            k += y
+    return (k)
+    #print(k)
